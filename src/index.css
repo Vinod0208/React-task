@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#card {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  width: 50%;
+  border: none;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.number {
+  width: 60px;
+  padding: 10px 10px;
+  margin-left: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: none;
+}
+#btn {
+  margin: 20px;
+  width: 100px;
+  color: black;
+  padding: 10px 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.table{
+  margin-top: 40px;
+  
+}
+#itemlist{
+  text-align: center;
+  padding: 10px 10px;
+}
+@media (min-width: 1281px) {
+  .number {
+    width: 60px;
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .number {
+    width: 60px;
+    padding: 10px 10px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .number {
+    width: 30px;
+    padding: 5px 5px;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  #flex{
+    margin-top: 20px;
+    display: flex;  
+  }
+  .number{
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #flex{
+    margin-top: 20px;
+    display: flex;  
+  }
+  .number{
+    margin-bottom: 10px;
+  }
+}
+
+
